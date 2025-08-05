@@ -1,0 +1,13 @@
+
+/* mobile first */
+body { margin: 0; padding; var(--spacing-unit) ; }
+/* breakpoint tablette (> 768px) */
+@media (min-width: 768px) {
+main { display :flex; gap: var(--spacing-unit) ; }
+}
+
+/* breakpoint desktop (> 1024px) */
+@media (min-width: 1024px) {
+.sidebar { width: 25%; }
+.content { width: 75%; }
+}
